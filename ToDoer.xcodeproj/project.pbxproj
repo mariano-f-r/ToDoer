@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		3F6BF6A0287C8EF200D671F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6BF69F287C8EF200D671F0 /* Assets.xcassets */; };
 		3F6BF6A3287C8EF200D671F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6BF6A1287C8EF200D671F0 /* LaunchScreen.storyboard */; };
 		3F6BF6AB287C90A600D671F0 /* TodolistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BF6AA287C90A600D671F0 /* TodolistTableViewController.swift */; };
+		3F6BF6AD287DCCE900D671F0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BF6AC287DCCE900D671F0 /* AddViewController.swift */; };
+		3F6BF6AF287DD38700D671F0 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BF6AE287DD38700D671F0 /* Task.swift */; };
+		3F6BF6B1287E010600D671F0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BF6B0287E010600D671F0 /* DetailViewController.swift */; };
+		3FD48CFB287F2FB20048AEB8 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 3FD48CFA287F2FB20048AEB8 /* SQLite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,9 @@
 		3F6BF6A2287C8EF200D671F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6BF6A4287C8EF200D671F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6BF6AA287C90A600D671F0 /* TodolistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodolistTableViewController.swift; sourceTree = "<group>"; };
+		3F6BF6AC287DCCE900D671F0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3F6BF6AE287DD38700D671F0 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3F6BF6B0287E010600D671F0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD48CFB287F2FB20048AEB8 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,10 +67,13 @@
 				3F6BF696287C8EF000D671F0 /* AppDelegate.swift */,
 				3F6BF698287C8EF000D671F0 /* SceneDelegate.swift */,
 				3F6BF69C287C8EF000D671F0 /* Main.storyboard */,
+				3F6BF6B0287E010600D671F0 /* DetailViewController.swift */,
+				3F6BF6AC287DCCE900D671F0 /* AddViewController.swift */,
 				3F6BF6AA287C90A600D671F0 /* TodolistTableViewController.swift */,
 				3F6BF69F287C8EF200D671F0 /* Assets.xcassets */,
 				3F6BF6A1287C8EF200D671F0 /* LaunchScreen.storyboard */,
 				3F6BF6A4287C8EF200D671F0 /* Info.plist */,
+				3F6BF6AE287DD38700D671F0 /* Task.swift */,
 			);
 			path = ToDoer;
 			sourceTree = "<group>";
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = ToDoer;
+			packageProductDependencies = (
+				3FD48CFA287F2FB20048AEB8 /* SQLite */,
+			);
 			productName = ToDoer;
 			productReference = 3F6BF693287C8EF000D671F0 /* ToDoer.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 3F6BF68A287C8EF000D671F0;
+			packageReferences = (
+				3FD48CF9287F2FB20048AEB8 /* XCRemoteSwiftPackageReference "SQLite" */,
+			);
 			productRefGroup = 3F6BF694287C8EF000D671F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +156,10 @@
 			files = (
 				3F6BF697287C8EF000D671F0 /* AppDelegate.swift in Sources */,
 				3F6BF6AB287C90A600D671F0 /* TodolistTableViewController.swift in Sources */,
+				3F6BF6AD287DCCE900D671F0 /* AddViewController.swift in Sources */,
+				3F6BF6B1287E010600D671F0 /* DetailViewController.swift in Sources */,
 				3F6BF699287C8EF000D671F0 /* SceneDelegate.swift in Sources */,
+				3F6BF6AF287DD38700D671F0 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +359,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3FD48CF9287F2FB20048AEB8 /* XCRemoteSwiftPackageReference "SQLite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3FD48CFA287F2FB20048AEB8 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3FD48CF9287F2FB20048AEB8 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F6BF68B287C8EF000D671F0 /* Project object */;
 }
