@@ -1,5 +1,7 @@
 <p align="center">
-    <img src="https://2hih5c1nlnt71of6g8yfvvnl-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/dpi-side-black-green.png" alt="DPI Logo"/>
+    <a href="https://dpi.uillinois.edu">
+        <img src="https://2hih5c1nlnt71of6g8yfvvnl-wpengine.netdna-ssl.com/wp-content/uploads/2022/02/dpi-side-black-green.png" alt="DPI Logo"/>
+    </a>
 </p>
 
 #  DPI 2022 "Capstone" Project
