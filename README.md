@@ -8,3 +8,10 @@
 
 A rather simple app I made with Swift, UIKit, and SQLite3. 
 It is rather simple, but I am quite proud of what I have managed to accomplish.
+
+## Contributing
+
+We have some simple contributing guidlines outlined in [our contributing guidlines](CONTRIBUTING.MD). Any and all contributions are welcome!
+
+## Credits
+<a href="https://www.flaticon.com/free-icons/correct" title="correct icons">Icons created by Freepik - Flaticon</a>
