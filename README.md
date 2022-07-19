@@ -14,4 +14,4 @@ It is rather simple, but I am quite proud of what I have managed to accomplish.
 We have some simple contributing guidlines outlined in [our contributing guidlines](CONTRIBUTING.MD). Any and all contrbutions are welcome!
 
 ## Credits
-<a href="https://www.flaticon.com/free-icons/correct" title="correct icons">Icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/correct" title="correct icons">App Icon created by Freepik - Flaticon</a>
