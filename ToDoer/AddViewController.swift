@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is responsible for handling the input of user data, the sanitisation of user data
 class AddViewController: UIViewController {
     var titleCompleted = false
     var dateCompleted = false

@@ -8,6 +8,7 @@
 import UIKit
 import SQLite
 
+/// This class is responsible for the main database handling, as well as listing all the tasks
 class TodolistTableViewController: UITableViewController {
     var todoTasks = [Task]()
     var modifiedTaskIndex: Int?
