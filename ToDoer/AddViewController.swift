@@ -17,8 +17,6 @@ class AddViewController: UIViewController {
     @IBOutlet weak var taskDescriptionTextField: UITextField!
     @IBOutlet weak var taskDoneButton: UIBarButtonItem!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         taskDoneButton.isEnabled = false
@@ -89,7 +87,5 @@ class AddViewController: UIViewController {
         
         homeVC.modifiedTaskIndex = counter
         homeVC.todoTasks.insert(newTask, at: counter)
-        
-        
     }
 }

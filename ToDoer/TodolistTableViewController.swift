@@ -237,7 +237,4 @@ class TodolistTableViewController: UITableViewController {
             destination.taskIndex = index.row
         }
     }
-    
-    
-
 }
